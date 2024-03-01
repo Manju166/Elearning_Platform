@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.navbar_wrapper {
+  border: 5px solid whitesmoke;
+  border-radius: 20px;
+  margin: 30px;
+  padding-bottom: 60px;
+  background-color: rgb(238, 238, 233);
+}
+.navbar_wrapper .navbar {
+  background: transparent;
+  width: 100%;
+  display: flex;
+}
+.navbar_wrapper .navbar .nav1 h3 {
+  padding: 0 60px;
+}
+.navbar_wrapper .navbar .nav1 b {
+  height: 20px;
+  color: #ff2f00;
+  font-size: 40px;
+}
+.navbar_wrapper .navbar .nav2 {
+  padding: 20px 70px;
+  text-align: center;
+  width: 70%;
+}
+.navbar_wrapper .navbar .nav2 a {
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+  color: black;
+}
+.navbar_wrapper .navbar .nav3 {
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: end;
+  width: 30%;
+}
+.navbar_wrapper .navbar .nav3 span {
+  padding: 10px;
+}
+.navbar_wrapper .navbar .nav3 .loginbtn {
+  height: 5vh;
+  border-style: hidden;
+  border-left: 1px solid gray;
+  width: 10vh;
+  background: none;
+}
+.navbar_wrapper .navbar .nav3 .joinbtn {
+  background: black;
+  color: aliceblue;
+  width: 10vh;
+  height: 5vh;
+  border-radius: 9px;
+}
+.navbar_wrapper .sec1 {
+  padding: 0 90px;
+}
+.navbar_wrapper .sec1 .content {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  width: 90%;
+}
+.navbar_wrapper .sec1 .content .heading {
+  font-size: 25px;
+  width: 60%;
+}
+.navbar_wrapper .sec1 .content .heading #spn {
+  position: relative;
+}
+.navbar_wrapper .sec1 .content .heading #spn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: solid 4px #ff2f00;
+  left: 0;
+  bottom: -10px;
+  border-radius: 50%;
+  height: 10px;
+}
+.navbar_wrapper .sec1 .content .logo {
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #e1ceca;
+}
+.navbar_wrapper .sec1 .container {
+  display: flex;
+}
+.navbar_wrapper .sec1 .container .details {
+  width: 100%;
+  padding: 50px 5px 0 100px;
+}
+.navbar_wrapper .sec1 .container .details h5 {
+  text-align: center;
+  font-size: 16px;
+  color: #ff2f00;
+  max-width: 280px;
+  position: relative;
+}
+.navbar_wrapper .sec1 .container .details h5:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #ff2f00;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.navbar_wrapper .sec1 .container .details p {
+  word-spacing: 2px;
+  line-height: 3vh;
+  padding: 20px 0 50px;
+}
+.navbar_wrapper .sec1 .container .details .lastbtn {
+  background: rgb(25, 165, 135);
+  padding: 10px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: aliceblue;
+  box-shadow: 0 3px rgb(94, 238, 207);
+}/*# sourceMappingURL=Nav.css.map */

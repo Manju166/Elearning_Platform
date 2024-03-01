@@ -1,0 +1,148 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.navbar_wrapper{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    margin: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(238, 238, 233);
+    
+  .navbar{
+    background: transparent;
+    width: 100%;
+    display: flex;
+
+  .nav1{
+    h3 {
+    padding: 0 60px;
+    }
+    b{
+        height: 20px;
+        color: #ff2f00;
+        font-size: 40px;
+    }
+    }
+
+.nav2{
+    padding: 20px 70px;
+    text-align: center;
+    width: 70%;
+    a{
+        text-decoration: none;
+        padding: 25px;
+        font-size: 20px;
+        color: black;
+    }
+   }
+.nav3{
+    padding: 20px ;
+    justify-content: space-between;
+    text-align: center;
+    align-items: end;
+    width: 30%;
+    span{
+        padding: 10px;
+    }
+    .loginbtn{
+        height: 5vh;
+        border-style: hidden;
+        border-left: 1px solid gray;
+        width: 10vh;
+        background: none;
+    }
+    .joinbtn{
+        background: black;
+        color: aliceblue;
+        width: 10vh;
+        height: 5vh;
+        border-radius: 9px;
+    }
+    }
+  }
+.sec1{
+    padding: 0 90px;
+
+.content{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    width: 90%;
+    .heading{
+       font-size: 25px;
+       width: 60%;
+       #spn{
+        position: relative;
+       }
+       #spn:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-top: solid 4px #ff2f00;
+        left: 0;
+        bottom: -10px;
+        border-radius: 50%;
+        height: 10px;
+       }
+    }
+    .logo{
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        img{
+            border-radius: 50%;
+        }
+    }
+    }
+
+.container{
+    display: flex;
+
+.details{
+    width: 100%;
+    padding: 50px 5px 0 100px;
+  
+        h5{
+        text-align: center;
+        font-size: 16px;
+        color: #ff2f00;
+        max-width: 280px;
+        position: relative;  
+         }
+            h5:before{
+                content: "";
+                display: block;
+                width: 60px;
+                height: 2px;
+                background-color: #ff2f00;
+                position: absolute;
+                left: 0;
+                top: 50%;
+      }
+
+    p{
+        word-spacing: 2px;
+        line-height: 3vh;
+        padding: 20px 0 50px;
+    }
+    .lastbtn{
+        background: rgb(25, 165, 135);
+        padding: 10px;
+        border-radius: 5px;
+        border-style: hidden;
+        color: aliceblue;
+        box-shadow: 0 3px rgb(94, 238, 207);
+    }
+}
+}
+}
+}
